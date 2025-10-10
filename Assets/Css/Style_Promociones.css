@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+}
+
+a {
+  font-family: "Lobster", sans-serif;
+  font-weight: 500;
+}
+
+.promo-section {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #fff8f0, #ffe5d9);
+    text-align: center;
+}
+
+.promo-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #434dbc;
+}
+
+.promo-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.promo-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.promo-card:hover {
+    transform: scale(1.05);
+}
+
+.promo-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.promo-content {
+    padding: 20px;
+}
+
+.promo-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #434dbc;
+}
+
+.promo-content p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.promo-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #434dbc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.promo-content a:hover {
+    background-color: #434dbc;
+}
+
+@media (max-width: 768px) {
+    .promo-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,67 @@
+body {
+  background-color: #434dbc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.Titulo{
+background-color: #fff8f0;
+border: 2px solid #f0c090;
+}
+
+.born {
+  color: #2940b3;
+}
+
+.text-center img {
+  margin: 0 5px;
+}
+
+
+.lead {
+  color: #333;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Secciones{
+background-color: #fff8f0;
+border: 2px solid #f0c090;
+}
+
+.Secciones {
+  justify-content: center;
+  background-color: #fff8f0;
+  border: 15px solid #ffffff;
+  display: flex;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.Secciones img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  transition: all 0.8s ease-in-out;
+  opacity: 1;
+}
+
+.Secciones img:hover {
+  width: 250px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+a {
+  font-family: "Lobster", sans-serif;
+  font-weight: 500;
+}
+
+.Visitanos{
+
+background-color: #fff8f0;
+border-left: 6px solid #f0a070;
+}
+
